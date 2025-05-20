@@ -1,0 +1,35 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.swp
+*.swo
+.*.swp
+*~
+/temp
+/tmp
+*.log
+
+# Files created by the application
+*.encrypted
+*.decrypted
+
+# Build artifacts (from your screenshot)
+build/
+dist/
+main.spec
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python executable 
+python-*.exe  # Ignore any python executable
+
+# Virtual environment (if you use one)
+.venv/
+env/
+venv/
+myvenv/
